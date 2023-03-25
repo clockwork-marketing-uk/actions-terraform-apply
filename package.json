@@ -1,0 +1,22 @@
+{
+    "name": "actions-terraform-apply",
+    "version": "1.0.0",
+    "description": "Start a terraform apply",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/clockwork-marketing-uk/actions-terraform-apply.git"
+    },
+    "author": "Clockwork Marketing <dev@clock-work.co.uk>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/clockwork-marketing-uk/actions-terraform-apply/issues"
+    },
+    "homepage": "https://github.com/clockwork-marketing-uk/actions-terraform-apply#readme",
+    "dependencies": {
+        "extract-changelog-release": "^1.0.2",
+        "standard-version": "^9.5.0"
+    },
+    "scripts": {
+        "release": "standard-version"
+    }
+}
