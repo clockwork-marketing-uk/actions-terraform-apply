@@ -17,9 +17,6 @@ inputs:
   auto_approve:
     description: "Approve without pull request"
     required: false
-  args:
-    description: "Additional terraform arguments"
-    required: false
 
 runs:
   using: "composite"
@@ -32,6 +29,5 @@ runs:
         backend_config_file: ${{ inputs.backend_config_file }}
         var_file: ${{ inputs.var_file }}
         auto_approve: ${{ inputs.auto_approve }}
-        args: ${{ inputs.args }}
 
 
